@@ -37,7 +37,7 @@ ul {
 }
 
 .active {
-  color: var(--color-secondary);
+  color: orangered;
   font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ ul {
 }
 
 .btn:hover {
-  background: var(--color-secondary);
+  background: orangered;
   color: #000;
 }
 
@@ -76,7 +76,6 @@ ul {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  border: 1px solid red;
 }
 
 .main-header .container {
@@ -88,15 +87,11 @@ ul {
 
 .main-header {
   padding: 20px 0;
-  border: 1px solid yellow;
   background: rgba(0, 0, 0, 0.8);
 }
 
-.main-header .logo {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
+.logo img {
+  width: 35%;
 }
 
 .main-header ul {
@@ -124,7 +119,7 @@ ul {
 
 /* Card */
 .card {
-  background: #04376b;
+  background: rgb(255, 69, 0, 0.5);
   padding: 5px;
 }
 
@@ -140,7 +135,7 @@ ul {
 .card:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
-  background: #0a4b8f;
+  background: rgb(255, 69, 0, 0.5);
 }
 
 /* Footer */
@@ -154,13 +149,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.main-footer .container .logo {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .main-footer .container .social-links {
