@@ -85,7 +85,7 @@ async function displayMovieDetails() {
 
   const div = document.createElement("div");
   div.innerHTML = `<div class="details-top">
-          <div>
+          <div class="image-card">
              ${
                movie.poster_path
                  ? ` <img

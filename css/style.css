@@ -212,13 +212,18 @@ section h2 {
   justify-content: space-between;
   align-items: center;
   margin: 50px 0 30px;
+  gap: 2rem;
 }
 
 .details-top img {
-  width: 400px;
+  width: 100%;
   height: 100%;
   margin-right: 60px;
   object-fit: cover;
+}
+.image-card {
+  width: 50%;
+  height: auto;
 }
 
 .details-top p {
@@ -333,16 +338,16 @@ section h2 {
 .alert-error {
   background: red;
 }
-#movie-details {
-  border: 1px solid red;
-}
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .details-top {
     flex-direction: column;
-    border: 2px solid white;
   }
   .details-top img {
     margin: 0%;
+  }
+  .image-card {
+    width: 100%;
+    height: auto;
   }
 }
