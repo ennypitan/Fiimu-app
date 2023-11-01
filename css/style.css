@@ -333,3 +333,16 @@ section h2 {
 .alert-error {
   background: red;
 }
+#movie-details {
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .details-top {
+    flex-direction: column;
+    border: 2px solid white;
+  }
+  .details-top img {
+    margin: 0%;
+  }
+}
