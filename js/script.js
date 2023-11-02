@@ -8,6 +8,13 @@ async function displayPopularMovies() {
   console.log(results);
   results.forEach((movie) => {
     // console.log(movie);
+
+    const releaseDate = new Date(movie.release_date);
+    const formattedDate = releaseDate.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
     const div = document.createElement("div");
     div.classList.add("card");
     div.innerHTML = `
@@ -29,7 +36,7 @@ async function displayPopularMovies() {
           <div class="card-body">
             <h5 class="card-title">${movie.title}</h5>
             <p class="card-text">
-              <small class="text-muted">Release:${movie.release_date}</small>
+              <small class="text-muted">Release:${formattedDate}<small>
             </p>
           </div>
         `;
@@ -43,6 +50,13 @@ async function displayPopularShows() {
   console.log(results);
   results.forEach((show) => {
     console.log(show);
+
+    const releaseDate = new Date(show.first_air_date);
+    const formattedDate = releaseDate.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
     const div = document.createElement("div");
     div.classList.add("card");
     div.innerHTML = `
@@ -64,9 +78,7 @@ async function displayPopularShows() {
           <div class="card-body">
             <h5 class="card-title">${show.name}</h5>
             <p class="card-text">
-              <small class="text-muted">First Air Date:${
-                show.first_air_date
-              }</small>
+              <small class="text-muted">First Air Date:${formattedDate}</small>
             </p>
           </div>
         `;

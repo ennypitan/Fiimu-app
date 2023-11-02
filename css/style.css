@@ -119,10 +119,12 @@ ul {
 
 /* Card */
 .card {
-  background: rgb(255, 69, 0, 0.5);
+  background: white;
   padding: 5px;
 }
-
+.card-title {
+  color: #020d18;
+}
 .card img {
   width: 100%;
 }
@@ -309,7 +311,9 @@ section h2 {
   background: var(--color-secondary);
   color: #000;
 }
-
+.text-muted {
+  color: rgb(128, 128, 128, 0.7);
+}
 .search .container form button:hover {
   background: transparent;
   color: #fff;
