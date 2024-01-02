@@ -13,12 +13,15 @@ Welcome to Fiimu, your one-stop destination for discovering and exploring the la
 
 ## Technologies Used
 
-**HTML**: Structuring the content of the website.
-**CSS**: Styling the website to create an attractive and responsive design.
-**JavaScript**: Enhancing interactivity and making API calls to fetch movie data.
-**The Movie Database (TMDb) API**: Accessing a vast database of movies for up-to-date information.
+- **HTML**: Structuring the content of the website.
+- **CSS**: Styling the website to create an attractive and responsive design.
+- **JavaScript**: Enhancing interactivity and making API calls to fetch movie data.
+- **The Movie Database (TMDb) API**: Accessing a vast database of movies for up-to-date information.
 
 Browse the latest movies, click on them to get more details, and discover your next cinematic adventure.
+
+[ Live project @ https://fiimu.netlify.app/](https://fiimu.netlify.app/)
+
 <img src="images/fiimu-ui.png" alt="" style="width: 900px" />
 
 <img src="images/fiimu-ui2.png" alt="" style="width: 900px" />
